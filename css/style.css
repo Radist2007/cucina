@@ -17,6 +17,12 @@ header {
     justify-content: space-around;
 }
 
+.menu__list-aside {
+    flex-grow: 1;
+    display: block;
+    width: 230px;
+}
+
 .menu__list-item {
     flex-grow: 1;
     padding: 20px;
@@ -24,8 +30,34 @@ header {
     text-align: center;
     list-style: none;
     border: 1px solid red;
+    transition: 1000ms all;
 }
 
 .menu__list-item:hover {
-    background-color: #808080;
+    background-color: #c8c8c8;
+}
+
+.link {
+    display: block;
+    color: #fff;
+    text-decoration-line: none;
+}
+
+.content {
+    display: flex;
+}
+
+
+
+.main {
+    flex-grow: 5;
+    background-color: #ffffff;
+    display: block;
+}
+
+.footer {
+    /*display: none;*/
+    text-align: center;
+    padding: 20px;
+    
 }
