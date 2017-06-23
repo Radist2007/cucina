@@ -56,8 +56,9 @@ header {
 }
 
 .footer {
-    /*display: none;*/
+    display: none;
+    background-color: rebeccapurple;
     text-align: center;
     padding: 20px;
-    
+    bottom: 0;
 }
