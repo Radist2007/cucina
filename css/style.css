@@ -1,4 +1,4 @@
-* {
+*, aside {
     margin: 0;
     padding: 0;
 }
@@ -47,8 +47,6 @@ header {
     display: flex;
 }
 
-
-
 .main {
     flex-grow: 5;
     background-color: #ffffff;
@@ -61,4 +59,18 @@ header {
     text-align: center;
     padding: 20px;
     bottom: 0;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+    /*display: block;*/
+    width: 100%;
+    box-sizing: border-box;
+}
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
