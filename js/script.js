@@ -1,13 +1,17 @@
-// window.onload = function() {
+window.onload = function() {
 
-document.body.style.backgroundColor = "green";
+    document.body.style.backgroundColor = "green";
 
-    var item = document.querySelector('.menu__list .menu__list-item');
-
-    item.onclick = function() {
-        this.classList.toggle('activ');
+    var item = document.querySelectorAll('.menu__list .menu__list-item');
+    for(var i = 0; i < item.length; i++) {
+        item[i].onclick = activeItem;
     }
-// }
+
+    function activeItem() {
+        this.classList.toggle('activ');
+        console.log(this);
+    }
+}
 
 
 
