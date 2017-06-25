@@ -1,4 +1,14 @@
+// window.onload = function() {
+
 document.body.style.backgroundColor = "green";
+
+    var item = document.querySelector('.menu__list .menu__list-item');
+
+    item.onclick = function() {
+        this.classList.toggle('activ');
+    }
+// }
+
 
 
 function showFooter() {
@@ -20,9 +30,9 @@ function createProduct() {
         pl.placeholder = "Вкажіть назву продукту";
     }
 
-    // if(typeof protein === 'number') {
-    //     alert(asdfa);
-    // }
+    if (Number.isInteger(protein)) {
+        alert("yep");
+    }
 
     var product = {
         name: name,

@@ -83,3 +83,8 @@ button {
     padding: 20px;
     margin: 20px;
 }
+
+.activ {
+    border-color: rebeccapurple;
+    background-color: yellow;
+}
