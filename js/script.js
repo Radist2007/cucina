@@ -1,19 +1,19 @@
 // window.onload = function() {
 
-    document.body.style.backgroundColor = "green";
 
-    var item = document.querySelectorAll('.menu__list .menu__list-item');
-    for(var i = 0; i < item.length; i++) {
-        item[i].onclick = activeItem;
-    }
+//     var item = document.querySelectorAll('.menu__list .menu__list-item');
+//     for(var i = 0; i < item.length; i++) {
+//         item[i].onclick = activeItem;
+//     }
 
-    function activeItem() {
-        this.classList.toggle('activ');
-        console.log(this);
-    }
+//     function activeItem() {
+//         this.classList.toggle('activ');
+//         console.log(this);
+//     }
 // }
 
 
+    document.body.style.backgroundColor = "green";
 
 function showFooter() {
     var el = document.getElementById("f");
@@ -29,15 +29,6 @@ function createProduct() {
         carbohydrates = document.getElementById("product_carbohydrates").value,
         price = document.getElementById("product_price").value;
 
-    if(name === "") {
-        var pl = document.getElementById("product_name");
-        pl.placeholder = "Вкажіть назву продукту";
-    }
-
-    if (Number.isInteger(protein)) {
-        alert("yep");
-    }
-
     var product = {
         name: name,
         prot: protein,
@@ -46,9 +37,12 @@ function createProduct() {
         price: price
     }
     
+    if(name !== "" && protein !== "" && fat !== "" && carbohydrates !== "" && price !== "") {
     alert("Створено продукт: " + product.name + "\n" + product.prot + "\n" + product.fat + "\n"  + product.carb + "\n"  + product.price);
-    
     addProduct(product);
+    }else{
+        alert("Не всі поля заповнені")
+    }
 }
 
 function addProduct(prod) {

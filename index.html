@@ -33,9 +33,9 @@
                 <menu class="menu__list menu__list-aside ">
                     <li><input id="product_name" type="text" name="prod" value="" placeholder="Назва продукту"></li>
                     <li><input id="product_protein" type="number" name="prod" value="" placeholder="Вміст білків"></li>
-                    <li><input id="product_fat" type="text" name="prod" value="" placeholder="Вміст жирів"></li>
-                    <li><input id="product_carbohydrates" type="text" name="prod" value="" placeholder="Вміст вуглеводів"></li>
-                    <li><input id="product_price" type="text" name="prod" value="" placeholder="Ціна грн. за 1 кг."></li>
+                    <li><input id="product_fat" type="number" name="prod" value="" placeholder="Вміст жирів"></li>
+                    <li><input id="product_carbohydrates" type="number" name="prod" value="" placeholder="Вміст вуглеводів"></li>
+                    <li><input id="product_price" type="text" name="number" value="" placeholder="Ціна грн. за 1 кг."></li>
                     <li id="create_roduct" onclick="createProduct()" class="menu__list-item"><a href="#" class="link">Створити продукт</a></li>
                     <li class="menu__list-item"onclick="showFooter()"><a href="#" class="link">knopa 4</a></li>
                     <li class="menu__list-item"><a href="#" class="link">knopa 5</a></li>
@@ -48,8 +48,16 @@
             </main>
         </content>
         <footer class="footer" id="f">
-            <div>
-                <h4>footer</h4>
+            <div class="t3d">
+                <div class="rotate">
+                    <img src="img/products.jpg">
+                    <div class="text">
+                        <div class="pd">
+                            <h3>knoppa</h3>
+                            <p>sam text</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </footer>
         <script src="js/script.js"></script>
