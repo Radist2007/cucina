@@ -23,11 +23,11 @@ function showFooter() {
 
 function createProduct() {
 
-    var name = document.getElementById("product_name").value;
-    var protein = document.getElementById("product_protein").value;
-    var fat = document.getElementById("product_fat").value;
-    var carbohydrates = document.getElementById("product_carbohydrates").value;
-    var price = document.getElementById("product_price").value;
+    var name = document.getElementById("product_name").value,
+        protein = document.getElementById("product_protein").value,
+        fat = document.getElementById("product_fat").value,
+        carbohydrates = document.getElementById("product_carbohydrates").value,
+        price = document.getElementById("product_price").value;
 
     if(name === "") {
         var pl = document.getElementById("product_name");
