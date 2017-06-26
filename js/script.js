@@ -1,4 +1,4 @@
-window.onload = function() {
+// window.onload = function() {
 
     document.body.style.backgroundColor = "green";
 
@@ -11,7 +11,7 @@ window.onload = function() {
         this.classList.toggle('activ');
         console.log(this);
     }
-}
+// }
 
 
 

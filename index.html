@@ -9,28 +9,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/style.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
         <!--<meta http-equiv="refresh" content="30">-->
     </head>
     <body>
         <header class="header">
-            <h1>cucina</h1>
-            <p>cucina for ...</p>
-        </header>
+            <section>
+                <h1>cucina</h1>
+                <p>cucina for ...</p>
+            </section>
         <nav>
             <menu class="menu__list">
                 <li class="menu__list-item"><a href="#" class="link">Головна</a></li>
-                <li class="menu__list-item"><a href="#" class="link">Продукт</a></li>
+                <li id="product" class="menu__list-item"><a href="#" class="link">Продукт</a></li>
                 <li class="menu__list-item"><a href="#" class="link">Страва</a></li>
                 <li class="menu__list-item"><a href="#" class="link">Меню</a></li>
                 <li class="menu__list-item"  onclick="showFooter()"><a href="#" class="link">Статистика</a></li>
             </menu>
         </nav>
+        </header>
         <content class="content">
             <aside class="aside">
                 <menu class="menu__list menu__list-aside ">
                     <li><input id="product_name" type="text" name="prod" value="" placeholder="Назва продукту"></li>
                     <li><input id="product_protein" type="number" name="prod" value="" placeholder="Вміст білків"></li>
-                    <li><input id="product_fat" type="text" name="prod" value="" placeholder="Вміст жирів"></li>
                     <li><input id="product_fat" type="text" name="prod" value="" placeholder="Вміст жирів"></li>
                     <li><input id="product_carbohydrates" type="text" name="prod" value="" placeholder="Вміст вуглеводів"></li>
                     <li><input id="product_price" type="text" name="prod" value="" placeholder="Ціна грн. за 1 кг."></li>

@@ -7,9 +7,23 @@ html, body {
     height: 100%;
 }
 
+header section {
+    padding: 20px;
+}
+
 header {
-    height: 10%;
-    background-color: #00ff00;
+    background-image: url("../img/cucinaHeader02.jpg");
+    background-size: 100%;
+    color: #fff;
+    text-shadow: 2px 2px 8px black;
+}
+
+nav {
+    /*background-image: url("../img/products.jpg");*/
+    background-size: 100%;
+    text-shadow: 2px 2px 8px black;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
 }
 
 .menu__list {
@@ -29,8 +43,12 @@ header {
     display: block;
     text-align: center;
     list-style: none;
-    border: 1px solid red;
+   /*border: 1px solid red;*/
     transition: 1000ms all;
+    background: -webkit-linear-gradient(top, rgba(255,0,0,0), #c8c8c8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, rgba(255,0,0,0), #c8c8c8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, rgba(255,0,0,0), #c8c8c8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top, rgba(255,0,0,0), #c8c8c8); /* Standard syntax (must be last) */
 }
 
 .menu__list-item:hover {
