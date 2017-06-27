@@ -97,49 +97,6 @@ nav #product:hover {
     /*transition: 1000ms all;*/
 }
 
-.t3d {
-    width: 416px;
-    height: 416px;
-    margin: 50px auto;
-    perspective: 1000px;
-}
-
-.t3d:hover .rotate {
-    transform: rotateY(180deg);
-}
-
-.rotate {
-    width: 416px;
-    height: 416px;
-    position: relative;
-    transition: 0.5ms;
-    transform-style: preserve-3d;
-}
-
-/*.rotate img {
-    width: 400px;
-    height: 300px;
-}*/
-
-.text {
-    border: 4px double #ccc;
-    width: 408px;
-    height: 408px;
-    background: #fff;
-    backface-visibility: hidden;
-}
-img {
-    border: 4px double #ccc;
-    width: 408px;
-    height: 408px;
-    background: #fff;
-}
-
-.text {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 input {
     padding: 10px;
     border-radius: 5px;
