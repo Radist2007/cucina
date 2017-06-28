@@ -105,6 +105,7 @@ input {
     width: 100%;
     box-sizing: border-box;
 }
+
 li {
     list-style-type: none;
     margin: 0;
@@ -114,9 +115,4 @@ li {
 button {
     padding: 20px;
     margin: 20px;
-}
-
-.activ {
-    border-color: rebeccapurple;
-    background-color: yellow;
 }

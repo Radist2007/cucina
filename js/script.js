@@ -11,19 +11,6 @@
 //         console.log(this);
 //     }
 // }
-function ny() {
-alert('134');
-var in1 = document.getElementById('in01').value,
-    in2 = document.getElementById('in02').value,
-    in3 = document.getElementById('in03').value,
-    in4 = document.getElementById('in04').value;
-
-    if(in1 > 1 && in2 < 20) {
-       var r = document.getElementById('div');
-       r.style.backgroundColor = "#fff";
-       alert('asdf');
-    }
-}
 
     document.body.style.backgroundColor = "green";
 
