@@ -35,15 +35,27 @@ function createProduct() {
         carb: carbohydrates,
         price: price
     }
+
+    function kkal(b, z, y){
+        var bil = b,
+            zur = z,
+            ygl = y;
+        var sum = (bil*4)+(zur*9)+(ygl*4);
+        return sum;
+    }
+
+    var kkalorii = kkal(protein, fat, carbohydrates);
     
     if(name !== "" && protein !== "" && fat !== "" && carbohydrates !== "" && price !== "") {
-    alert("Створено продукт: " + product.name + "\n" + product.prot + "\n" + product.fat + "\n"  + product.carb + "\n"  + product.price);
+    alert("Створено продукт: " + product.name + "\n\n У 100г продукту міститься:\n\n Білків: " + product.prot + "\n Жирів: " + product.fat + "\n Вуглеводів: "  + product.carb + "\n Кілокалорій: " + kkalorii + "\n Ціна: "  + product.price + "грн/кг.");
     addProduct(product);
     }else{
         alert("Не всі поля заповнені")
     }
+    var prodMesage = "Створено продукт: " + product.name + "\n\n У 100г продукту міститься:\n\n Білків: " + product.prot + "\n Жирів: " + product.fat + "\n Вуглеводів: "  + product.carb + "\n Кілокалорій: " + kkalorii + "\n Ціна: "  + product.price + "грн/кг."
+
+    function addProduct(prod) {
+        document.getElementsByClassName("main")[0].innerHTML = prod.name;
+    }
 }
 
-function addProduct(prod) {
-    document.getElementsByClassName("main")[0].innerHTML = '<button>' + prod.name + '</button>' + prod.name;
-}
