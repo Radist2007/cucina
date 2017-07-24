@@ -1,8 +1,8 @@
-<p aling="center" style="text-align:center">
+<p align="center" style="text-align:center">
 <b>Cucina - кухня.</b>
 </p>
 
-<p aling="center" style="text-align:center">
+<p align="center" style="text-align:center">
 Сайта для відслідковування та обчислення всього що стосується кухни.
 </p>
 
