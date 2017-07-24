@@ -13,9 +13,22 @@
     </head>
     <body>
         <header class="header">
+
             <section>
-                <h1>cucina</h1>
-                <p>cucina for ...</p>
+                <div class="logo">
+                    <h1>cucina</h1>
+                    <p>cucina for ...</p>
+                </div>
+
+                <div class="login">
+                    <i class="fa fa-sign-in" aria-hidden="true"></i>
+                    <form id="indexLogin">
+                        <input type="login" placeholder="login...">
+                        <input type="password" placeholder="password...">
+                        <input type="submit" value="login">
+                    </form>
+                </div>
+
             </section>
 
             <nav>
@@ -27,32 +40,22 @@
                     <li class="menu__list-item"><a href="#" class="link">Статистика</a></li>
                 </menu>
             </nav>
+
         </header>
+
         <content class="content">
-                
-            <aside class="aside">
-                <menu class="menu__list menu__list-aside ">
-                    <li><input id="product_name" type="text" name="prod" value="" placeholder="Назва продукту"></li>
-                    <li><input id="product_protein" type="number" name="prod" value="" placeholder="Вміст білків"></li>
-                    <li><input id="product_fat" type="number" name="prod" value="" placeholder="Вміст жирів"></li>
-                    <li><input id="product_carbohydrates" type="number" name="prod" value="" placeholder="Вміст вуглеводів"></li>
-                    <li><input id="product_price" type="text" name="number" value="" placeholder="Ціна грн. за 1 кг."></li>
-                    <li id="create_roduct" onclick="createProduct()" class="menu__list-item"><a href="#" class="link">Створити продукт</a></li>
-                    <li class="menu__list-item"onclick="showFooter()"><a href="#" class="link">knopa 4</a></li>
-                    <li class="menu__list-item"><a href="#" class="link">knopa 5</a></li>
-                    <li class="menu__list-item"><a href="#" class="link">knopa 6</a></li>
-                    <li class="menu__list-item"><a href="#" class="link">knopa 7</a></li>
-                </menu>
-            </aside>
-                
+
             <main class="main">
 
             </main>
-                
-        </content>
-        <footer class="footer">
 
+        </content>
+
+        <footer class="footer">
+            <h1>footer</h1>
         </footer>
+
         <script src="js/script.js"></script>
+
     </body>
 </html>
