@@ -7,6 +7,13 @@ html, body {
     height: 100%;
 }
 
+header {
+    background-image: url("../img/cucinaHeader02.jpg");
+    background-size: 100%;
+    color: #fff;
+    text-shadow: 2px 2px 8px black;
+}
+
 header section {
     display: flex;
     flex-direction: row;
@@ -16,7 +23,6 @@ header section {
 }
 
 .logo {
-
 }
 
 .login {
@@ -24,8 +30,18 @@ header section {
     flex-direction: row;
 }
 
+.login #indexLogin {
+    display: flex;
+    flex-direction: row;
+    display: none;
+}
+
 .login .fa-sign-in {
     font-size: 50px;
+}
+
+.login  {
+     /* display: block;  */
 }
 
 .login input {
@@ -38,12 +54,6 @@ header section {
     width: 300px;
 } */
 
-header {
-    background-image: url("../img/cucinaHeader02.jpg");
-    background-size: 100%;
-    color: #fff;
-    text-shadow: 2px 2px 8px black;
-}
 
 nav {
     background-size: 100%;
