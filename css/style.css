@@ -17,7 +17,7 @@ header {
 header section {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
+    align-items: center;
     padding: 20px; 
     justify-content: space-between;
 }
@@ -163,4 +163,9 @@ button {
      background-size: 100%;
      bottom: 0; 
     /*transition: 1000ms all;*/
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
