@@ -1,0 +1,35 @@
+{
+  "name": "cucina",
+  "version": "1.0.0",
+  "description": "cucina",
+  "main": "app.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radist2007/cucina.git"
+  },
+  "author": "radist2007",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radist2007/cucina/issues"
+  },
+  "homepage": "https://github.com/radist2007/cucina#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "body-parser": "^1.18.2",
+    "browser-sync": "^2.18.13",
+    "connect-mongo": "^2.0.0",
+    "crypto": "^1.0.1",
+    "del": "^3.0.0",
+    "express": "^4.16.2",
+    "express-favicon": "^2.0.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.12.2"
+  }
+}
